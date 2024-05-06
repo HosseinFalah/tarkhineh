@@ -1,8 +1,11 @@
+import Banner from "@/components/templates/index/banner/Banner"
+
 const Home = () => {
     return (
-        <header className="">
-            Home
-        </header>
+        <main className="">
+            {/* Banner */}
+            <Banner/>
+        </main>
     )
 }
 

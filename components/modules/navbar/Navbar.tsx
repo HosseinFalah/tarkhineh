@@ -28,7 +28,7 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
-                            <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute top-10 -right-20 bg-white w-36 rounded-sm shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                            <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute top-10 -right-20 bg-white w-36 z-10 rounded-sm shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                                 <li>
                                     اکباتان
                                 </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
-                            <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute top-10 right-0 bg-white w-36 rounded-sm shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                            <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute top-10 right-0 bg-white w-36 z-10 rounded-sm shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                                 <li>
                                     غذای اصلی
                                 </li>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                         </svg>
-                        <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute rounded-sm top-14 -right-[6.5rem] bg-white w-36 text-start shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <ul className="invisible divide-y divide-neutral-500 *:p-2 text-sm text-neutral-900 absolute rounded-sm top-14 -right-[6.5rem] bg-white w-36 z-10 text-start shadow opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <li className="flex text-center gap-x-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
