@@ -16,9 +16,10 @@ const Navbar = () => {
                     src={'/images/Logo.png'}
                     width={155}
                     height={51}
+                    className="w-36 h-12 object-cover"
                     alt="Logo"
                 />
-                <ul className="flex items-center gap-x-6 text-sm md:text-md lg:text-xl text-neutral-800">
+                <ul className="flex items-center gap-x-4 lg:gap-x-6 text-sm lg:text-xl text-neutral-800">
                     <li>
                         <Link href={`/`} className="text-primary font-bold border-b-2 border-primary">صفحه اصلی</Link>
                     </li>

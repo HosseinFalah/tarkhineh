@@ -63,7 +63,7 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
-    <html lang="fa-IR" dir="rtl">
+    <html lang="fa-IR" className="scroll-smooth" dir="rtl">
       <body className={`${IranSansFont.variable} font-sans`}>
         <Navbar/>
         {children}
