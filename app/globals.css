@@ -6,4 +6,13 @@
     .about_img{
         background: url('/images/about.png');
     }
+
+    .footer_img{
+        background: url('/images/Footer.png');
+        object-fit: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
 }

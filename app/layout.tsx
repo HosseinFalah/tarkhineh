@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import Navbar from "@/components/modules/navbar/Navbar";
-
+import Footer from "@/components/modules/footer/Footer";
 import "./globals.css";
 
 const IranSansFont = localFont({
@@ -67,6 +67,7 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
       <body className={`${IranSansFont.variable} font-sans`}>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
